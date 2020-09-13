@@ -1,0 +1,23 @@
+In Array we have  two types
+
+1> Single Dimensional Array
+2> Multi Dimensional Array
+
+
+Single Dimensional - One row and multiple columns 
+
+Multi Dimensional - many rows and many columns in a matrix form
+
+Three Dimensional is in the cube form
+
+
+THE THIRD PARTY PACKAGE NUMPY
+
+to install packages we use Pip
+
+
+pip3 install numpy  --- is the cmd we use in the command prompt to install numpy
+
+import numpy
+
+

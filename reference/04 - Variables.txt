@@ -1,0 +1,31 @@
+variable - it's a container where we put our values.
+
+x=2
+name of the container = x
+value = 2
+this is an assignment operation
+
+_ - this represents the output of the previous operation
+
+we can print strings and assign strings
+name[0]
+
+
+string index out of range
+
+youtube 
+name[-1] - starts from ending to starting
+name[0:2] -string  slicing
+ name[1:4] - this is exclusive of 4
+out
+ name[1:]
+if we dont specify the ending part
+
+name[:4]
+it ends till 3
+name[3:10]
+it just ends till last character
+ 'my' + name[3:]
+all this is for the name = youtube
+in-built functions 
+len()

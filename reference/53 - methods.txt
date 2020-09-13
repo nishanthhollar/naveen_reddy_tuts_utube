@@ -1,0 +1,60 @@
+Object has 2 things :
+1> variables
+2>methods
+
+
+Three types of methods 
+1> Instance methods
+2> class methods
+3>static methods
+
+
+here class methods and static methods are different
+
+
+ Static or class variable is declared outside the constructor or any methods
+
+
+IN Instance we have two types 
+1> Accessor Methods
+2> Mutator Methods
+
+Accessor Methods -- to only fetch the value of instance methods
+
+Mutator Methods --- to modify the value of instance methods or variables
+
+
+Getters are fetching data
+setters are setting the data
+
+geters get the value -> get or Accessor methods
+seters set the value  -> set or mutator methods
+
+ if we are working with instance then we are using a self keyword or 
+else we use a cls keyword
+
+def info(cls):
+
+if we want to create a class method then we need to use a 
+special method or class methods which are decorators
+
+@classmethod
+def info(cls):	
+
+--- this is how we define it and call it
+print(Student.info())
+
+
+If we want a method which has nothing to do with instance  or class variables 
+then we will go for static methods
+
+
+   @staticmethod
+    def infq():
+        print("THis method has nothing to do
+ with class variables or instance variables then we are
+ using this mehod that is static method ")
+
+        print("THis method is static")
+
+which is not involved with instance methods or cls or class methods

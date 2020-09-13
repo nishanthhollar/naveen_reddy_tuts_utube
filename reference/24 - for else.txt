@@ -1,0 +1,19 @@
+nums = [12, 16, 20, 25]
+for num in nums:
+    if num%5 == 0:
+        print(num)
+        break
+else:
+    print("NO numbers divisible by 5")
+
+
+using else for
+FOR ELSE
+
+nums = [12, 16, 20, 25]
+for num in nums:
+    if num%5 == 0:
+        print(num)
+        break
+else:
+    print("NO numbers divisible by 5")

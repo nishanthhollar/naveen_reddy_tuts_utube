@@ -1,0 +1,27 @@
+while loop is for certain iterations and for certain conditions
+
+for loop works for sequence such as list, tuple ,etc
+
+unlike while 
+ we dont initialize the variable 
+we dont check the condition
+we don't increment or decrement the values
+
+for i in list[]
+
+
+for i in range(10):    --> to print 10  values with the last number 1
+
+range(start point, end point, iteration)
+
+
+for i in range(20,11,-1):
+
+
+
+we can have if condition inside for
+
+
+
+Nested for loop
+

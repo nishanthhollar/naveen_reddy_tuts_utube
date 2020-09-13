@@ -1,0 +1,24 @@
+special variable __name__
+
+we use double underscore
+print(__name__)
+
+we get output as 	__main__
+
+
+demo.py in first file
+def main():
+	print("Hello")
+	print("Welcome User")
+if __name__ == "__main__":  		#Very impt code
+
+	main()
+
+Calc.py 
+
+import demo 
+print("Its time to calculate")
+
+
+"HERE WHENEVER I IMPORT I GET THE CODES EXECUTED FROM 
+DEMO.PY"

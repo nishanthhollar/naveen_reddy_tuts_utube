@@ -1,0 +1,8 @@
+
+
+MAIN CODE TO STOP EXECUTION OF ALL THE FUNCTIONS WHILE IMPORTING
+A CERTAIN MODULE IS TO
+use
+
+if __name__ == "__main__":
+	function()

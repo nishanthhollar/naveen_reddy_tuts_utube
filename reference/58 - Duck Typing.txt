@@ -1,0 +1,12 @@
+DUCK TYPING
+
+if there is a bird that is walking like a duck, quacking like  a duck
+and swimming like a duck then that bird is a duck
+
+
+If the behaviour of a bird is matching with a  duck then it is known as duck typing
+
+if there is an object and if it has a method then this is known as duck typing
+ 
+
+this is just like using interfaces

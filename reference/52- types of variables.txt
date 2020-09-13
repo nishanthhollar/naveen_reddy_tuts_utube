@@ -1,0 +1,34 @@
+Variable has two types
+
+1> Instance Variable 
+2> Class Variable or static variable
+
+
+What if i want to create a variable common for all objects''
+if we define the variable inside init then it '
+is an instance variable 
+
+if we define the variable outside init then
+it is called class variable
+
+Example 
+
+
+class Bike():
+tyres = 2    --- these are class variables which are outside the init method but inside
+		the class
+
+def __init__(self):
+	self.mil = 10
+	self.mod = "apache"    -- these are instance variable which are inside init
+
+	
+class variable once changed will change all the objects
+
+
+NAMESPACE -- is an area where you create and store object/variable
+
+- Class namespace-- (wheels = 4)
+- Object/ Instance namespace--  (self.mil = 10)
+
+FInal point to remember we have instance and class variables

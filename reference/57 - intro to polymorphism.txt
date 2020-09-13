@@ -1,0 +1,20 @@
+POLYMORPHISM
+
+Poly - many
+ Morph - form
+
+Polymorphism means one thing take on many forms
+
+We behave differently according to different situations
+
+We use the Polymorphism concept in 
+Loose Coupling
+Dependency Injection
+Interface
+
+
+Four ways in Implementing polymorphism
+1> Duck Typing
+2> Operator Overloading 
+3> Method Overloading
+4> Method overriding

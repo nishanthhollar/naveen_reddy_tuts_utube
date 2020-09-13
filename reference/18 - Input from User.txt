@@ -1,0 +1,67 @@
+x = input()
+x = int(input())
+
+input is always a string type
+
+by default
+
+
+
+
+We dont have char format in python 
+ch = input("Enter the char:")
+print(ch[0])
+
+
+only i want the first character 
+ch = input("Enter a char") [0]
+print(ch)
+
+
+use a function called eval - to evaluate the function as well
+
+result = eval(input("Enter an expr"))
+print(result)
+
+the eval function evaluates the complete expression
+
+
+
+to pass values from cmd prompt  when i am running my cmd prompt
+
+ARGV
+
+argv - will be having multiple values which is a list
+
+and to access these values i need to pass the index number
+
+mycode.py 6 2
+mycode.py has index number 0 
+6 has index number 1 
+2 has index number 2
+
+import sys 
+this imports the module argv
+
+x = int(sys.argv[1])
+y = int(sys.argv[2])
+
+when i am running the python code i want to pass the values
+
+for this we use agrv
+
+it is a list which has multiple values
+
+to use argv in python we need to import the module sys
+import sys
+
+
+x = sys.argv[1]
+y = sys.argv[2]
+
+for this we get the output as a string so hence we need to convert it into A int
+
+x = int(sys.argv[1])
+y = int(sys.argv[2])
+
+we can take the input and find the answer

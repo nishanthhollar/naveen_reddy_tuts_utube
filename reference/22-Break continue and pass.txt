@@ -1,0 +1,76 @@
+Break is used to jump out of the loop
+
+x = int(input("enter the amount of candies for the user:"))
+
+i =1
+while i<=x:
+	if i>av:
+ 	     print("Out of stock")
+	         break
+
+	print("CANDIES")
+	i = i+1
+print("Bye")
+
+
+CONTINUE
+
+to skip the remaining  statements
+
+
+for i in range(1, 101):
+    if i%3==0 or i%5==0:
+        continue
+
+    print(i,end="\t")
+print("BYE")
+
+
+or means either this or that
+and means both
+
+
+PASS means
+WE need to just ignore the code
+
+
+for i in range(1, 101):
+    if i%2==0:
+        pass
+
+    else:
+        print(i, end="\t")
+print("Bye")
+
+
+BREAK ,CONTINUE AND PASS
+
+COntinue - it skips the remaining statements
+
+
+for i in range(5):
+    if i ==3:
+	continue
+  print("Hello", i)
+
+
+
+for i in range(5):
+    if i == 2:
+        continue
+    print("Hello",i)
+
+
+break - won't continue with the loop
+continue - skips the iteration
+pass - ignores the if true statement
+
+
+for example if you dont know how to use the function and if you want to keep the function 
+then you need to pass
+Normally to skip the block 
+
+
+
+
+

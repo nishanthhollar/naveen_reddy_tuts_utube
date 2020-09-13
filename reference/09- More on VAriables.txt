@@ -1,0 +1,39 @@
+num = 5 
+
+what will happpen in this scene
+
+num is a box which has a value that is 5 and it has the address
+
+id(num) -- this command is used to get the address of the value
+
+id(name)--- command is used to get the address 
+In python whenever we create the different variable with the same value 
+they both will point to the same box 
+
+hence that's where python is more efficient
+
+id(k)
+
+variable are also called TAGS
+we are tagging everything
+
+a = 9 
+id(9)
+
+
+Here Python is memory efficient because it points to the same address if the value is same
+
+
+Whenever we have data and that is not used ,
+ that's when GARBAGE COLLECTION is going to be used
+
+
+HOW TO CREATE CONSTANTS
+
+Make a variable constant - we use capital letters for the variables
+PI = 3.14
+type of the variable
+type(PI)
+
+
+

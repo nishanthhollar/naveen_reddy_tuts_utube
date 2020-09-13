@@ -1,0 +1,56 @@
+x = sqrt(25)
+
+this modules are not by default that there is
+we live in a world where we need to ask for things
+
+
+import math
+
+x = math.sqrt(25)
+
+
+Floor function value 
+
+math.floor 
+math.ceil
+
+
+when we need values of imteger 
+example - 2.5
+using floor we just get the integer value
+we get the value 2
+
+
+example - 2.9 
+we get the integer 2
+
+when we use math.ceil - 
+we get the max value ie 3 for 2.9 
+even if it is 2.1 then we get 3
+
+math.pow(3,2) ---> which means 3**2
+
+math.pi
+math.e
+
+
+When i dont want to use math keyword then 
+WE NEED TO USE THE CONCEPT OF ALIAS
+
+import math as m
+
+example 
+math.sqrt(24)
+m.sqrt(24)
+
+both gives the same answer with using different names
+
+WHEN I WANT TO IMPORT ONLY CERTAIN FUNCTIONS EXAMPLE
+
+from math import sqrt. pow
+pow(4,5)
+hence we get only certain functions
+
+help('math')
+to read the documentation
+

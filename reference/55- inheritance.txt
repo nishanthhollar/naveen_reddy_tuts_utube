@@ -1,0 +1,41 @@
+IN real life we have parent and child relationship 
+this is inheritance
+
+
+All languages that follow oops concept uses inheritance
+
+CLasses inherits the classes
+
+ class A:
+super class 
+sub class
+sub class inheriting from super class is known as single level inheritence
+
+This is known as SINGLE LEVEL INHERITANCE
+
+MULTI LEVEL INHERITANCE
+
+class A():
+
+def
+
+class B(A):
+def
+
+class C(B):
+def 
+
+class C can access all the methods from A and B
+
+MULTIPLE INHERITANCE --
+it means that there are three classes 
+class A 
+class B and 
+classs C 
+CLass B is not inheriting from A
+but Class C wants to access both A and B 
+hence class C inherits from both A and B 
+This is kNOWN as MULTIPLE INHERITANCE
+
+
+class C(A, B):  -- multiple inheritance

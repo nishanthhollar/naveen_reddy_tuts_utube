@@ -1,0 +1,28 @@
+Talk with the computer 
+follow grammmar while using a language
+// floor division
+% - gives the remainder
+
+
+print('navin "laptop" ')
+
+
+
+print('c:\docs\navin')
+c:\docs
+avin
+
+print( ' navin\' s "laptop" ')
+
+
+concatentate two strings = use +
+'navin'+'navin'
+
+10 * 'navin'
+
+prints navin 10 times
+
+
+
+r means raw string
+print(r'c:\docs\navin')

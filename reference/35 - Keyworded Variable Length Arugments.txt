@@ -1,0 +1,36 @@
+
+
+def person(name, **data):   #here data is a tuple
+			#double star means it takes multiple data
+	print(name)
+	print(data)
+	
+
+person('nishanth',age =  21, city = 'Bangalore',mob =  812342434)
+
+
+
+
+
+def person(name, **data):   #here data is a tuple
+			#double star means it takes multiple data
+	print(name)
+	for i, j in data.items():
+	print(i, j)
+
+
+
+def person(name, **data):
+        print(name)
+
+        for i,j in data.items():
+            print(i, j)
+
+person("nishanth", age = 20, city = "Bangalore", mob = 8888888)
+
+
+KEYWORD VARIABLE
+
+	
+
+person('nishanth',age =  21, city = 'Bangalore',mob =  812342434)

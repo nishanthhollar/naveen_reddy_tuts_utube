@@ -1,0 +1,64 @@
+Array Example in Python 
+
+
+Array Values from the User
+
+Create an Array and ask the user to enter the values 
+and search for the element
+
+step1>
+create an array
+step2>
+asking user to insert the length of the array
+
+step3> ask for the elements for 5 times
+for i in range(n):
+	x =  int(input("Enter the value"))
+	arr.append(x)
+
+
+print(arr)
+
+
+
+
+
+
+#to insert an user element in an array we use the method append
+
+from array import *
+arr = array('i', []) #empty array
+
+n = int(input("Enter the length of the array: "))
+
+for element in range(n):
+    x = int(input('Enter the values to be entered into the array: '))
+    arr.append(x)
+
+
+print(arr)
+
+""" Manually checking or searching the numbers """
+val = int(input('enter the element which you want to search baby: '))
+k = 1
+for e in arr:
+    if e==val:
+        print("THe element exists",e)
+        break
+        k+=1
+
+else:
+    print("element does not exist")
+
+
+
+
+
+FUNCTION FOR SEARCHING OR GETTING THE INDEX VALUE OF THE STRING
+
+
+print(arr.index(val))
+
+
+
+ASSIGNMENT PENDING OF INSERTING AND SEARCHING IN AN ARRAY

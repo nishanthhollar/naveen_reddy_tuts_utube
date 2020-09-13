@@ -1,0 +1,31 @@
+__init__ method in python
+
+Objects have two things
+1> attributes
+2>behaviours
+
+
+
+computer has two impt things
+1> cpu
+2> ram
+
+SPecial variables
+
+SPecial methods 
+
+__init__
+
+__init__ --> used to initialize the variable also known as constructor for other 
+languages
+
+Methods and data works together
+
+We are binding methods and data
+
+def __init__(self, cpu, ram):
+	self.cpu = cpu 
+	self.ram = ram
+
+We area actually passing three objects self is the object and we are passing some arguments
+with self

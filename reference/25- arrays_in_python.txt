@@ -1,0 +1,75 @@
+ARRAY - 
+we need to have all the values of same type
+
+values should be int
+values should be float
+
+
+array's do not have a fixed size in python
+if we want to increase the size then we can increase it or if we want 
+to decrease the size then we can decrease it
+ 
+
+if we want to add elements then we can use append
+ find element - index() where we can fetch the index number
+
+
+
+import array
+
+
+In array we need to specifiy the type and values
+
+
+In array we need to specify the type and the values
+
+
+unsigned - there is no negative range
+
+signed - there is negative range
+
+vals = array('i', [5,9, 6,8])
+i means integer values 
+
+bufffer_info() - gets the address and size of the array
+output-
+(16130016, 5) - address, size
+
+
+typecode
+prints the type of the code we are working with
+
+add value - append()
+remove value - remove()
+
+vals.reverse()
+
+NewArr = array(vals.typecode, (a for a in vals))  ---> as i dont know the value 
+i will take it from the other values
+
+
+
+Using while loop
+#USing while loop
+vals = array('i', [1, 4, 5, 7, 10])
+newArr = array(vals.typecode, (a*a for a in vals))
+i = 0
+while i<len(newArr):
+    print(newArr[i])
+    i +=1
+
+
+
+
+Using for loop
+
+#for loop
+vals = array('i', [1, 4, 5, 7, 10])
+newArr = array(vals.typecode, (a*a for a in vals))  #i am taking values from other arrays and squaring it
+
+
+for e in newArr:
+    print(e)
+
+
+

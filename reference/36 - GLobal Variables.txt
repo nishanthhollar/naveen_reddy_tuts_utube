@@ -1,0 +1,18 @@
+Scope comes to picture to define the variable's usage 
+ability in the programs
+
+Outside the function the variable is called global variable 
+
+The variable inside the function is called local variable of that function'
+
+
+in inside the function the local variable will always have the importance
+
+Mentioning Global in the keyword
+
+
+
+We cannot have global variable and local variable in the same function
+
+
+BUt we can have by using the globals()[] function 

@@ -1,0 +1,55 @@
+Unique selling point of python'
+Object oriented programming
+
+it supports 
+functional programming
+object	programming
+procedural programming
+
+
+If we can achieve a functional task 
+ 
+What is objecct?
+We try to solve real world issue with help of virtual world solutions
+
+
+we need objcts to solve problems
+everything is object in  real world
+
+
+some employee objects needs an AC object
+
+
+Objects have ATTRIBUTES
+
+description of the object is called as attributes
+and attributes have behaviour 
+
+
+if we want to store something in objects we need  to use variables
+
+if we want to do something functuions in oop is called methods
+if we want objects to do something then it's called methods
+
+to achieve anything in programming we need  to think about the object
+We should thik about multiple objects and then think about how to connect them
+
+
+Different concepts of OOPS are
+1>  OBJECT
+2> CLASS
+3> ABSTRACTION
+4> ENCAPSULATION
+5> POLYMORPHISM
+
+We use object and class together
+but why are they important
+
+
+sometimes designing is important than manufacturing
+
+class is a design
+object is a real stuff or instance 
+object - instance of a class 
+CLASS-  is a blueprint of  object or design of the object
+

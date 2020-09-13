@@ -1,0 +1,29 @@
+init is actually a constructor
+
+class Computer():    #design
+
+c1 = Computer()
+in our system we have a special memory called Heap memory
+
+here this obj takes some space in Heap memory
+id(c1) ---- id  function gives the address of c1
+
+Every time we create an object it takes two different spaces or creates new spaces
+
+
+
+Question is how much memory does the object takes'
+Size of the object? 
+Depends on the no of variables of each variable
+
+WHo allocates the size to the object?
+Constructor  is responsible to assign or calculate the memory
+
+It is all done internally
+
+
+self is a pointer which  directs to objects based on where you are calling
+
+c1.compare(c2)
+the thing is c1 is comparing with c2 '
+c1 becomes self and c2 becomes other 

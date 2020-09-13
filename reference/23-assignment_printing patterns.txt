@@ -1,0 +1,11 @@
+1 2 3 4
+2 3 4
+3 4
+4
+
+
+
+A P Q R
+A B Q R
+A B C R
+A B C D

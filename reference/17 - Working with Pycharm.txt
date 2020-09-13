@@ -1,0 +1,8 @@
+YOu can use Break points to help to debug to code
+Just click on the line to make a break point
+
+
+ F8 is used for running the program
+
+How to trace the bug in 1000 lines of code
+we need to use it

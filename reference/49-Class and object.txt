@@ -1,0 +1,29 @@
+Before we create an objecct we need to create a class
+
+Before we build a tower we need to have blueprint
+so first class should be there to create objects
+
+
+Defining a class
+
+class name:
+	what we can  put inside a class?
+	1>Attributes -> variables
+	2>Behaviour -> Methods(Functions which we are using )
+These two attributes comes inside  a class
+
+class Computer:
+	
+	def config(self):
+		print("i5, 16gb, 1Tb")
+
+com1 = Computer()    #Constructor
+print(type(com1)) 
+
+
+com1.config()
+Computer.config(com1)
+
+com1.config() -- will take the parameter of com1  inside config
+
+Ctrl + function name ---> when we  click on it we will get the documentation

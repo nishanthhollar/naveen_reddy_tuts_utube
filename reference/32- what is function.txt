@@ -1,0 +1,61 @@
+Functions in Python
+
+If we have complex project - we break it into smaller tasks
+
+
+
+Step - 1> Defining a function 
+Step-2>  Calling a function 
+
+
+def greet(): - round brackets makes the compiler understand that it is 
+a function and not a variable
+
+
+def greet():
+	print("Hello")
+	print("Good Morning")
+#calling thr function
+greet()
+
+
+We can call the function multiple functions
+
+
+def Add(arguments):
+
+def Add(x, y):
+	c = x + y
+	print(c)
+add(5, 4)
+
+result = add(5, 4)
+
+We call a function we can print it or return a value
+
+return - keyword used to return a key value
+
+A function can return a value and function cannot return a value 
+
+returning two values
+
+
+def add_sub(x, y):
+	c = x+y
+	d = x-y
+	return c,d
+
+result1, result2 = add_sub(5, 4)
+print(result1, result2)
+
+
+Function is a block which has one task 
+WE can call them again 
+
+If we want to modify one code then we can only change one function and
+it does not depend on other codes
+
+
+
+
+

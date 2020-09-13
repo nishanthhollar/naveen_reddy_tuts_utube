@@ -1,0 +1,36 @@
+These are conditional statements
+where we need to make a decision
+
+By using if we can make or form what kind of statements we want
+to execute
+
+if True it executes'
+
+if False it does not execute  
+
+indentation
+
+
+Writing efficient code is important
+
+
+Nested If -
+one if inside another if
+
+
+x = 2 
+
+if x==1: 
+            print("One")
+if x==1: 
+            print("One")
+if x==1: 
+            print("One")
+if x==1: 
+            print("One")
+
+
+if we dont want to check for other number then we can use elif
+elif --> else if
+
+it doesn't check for other conditions

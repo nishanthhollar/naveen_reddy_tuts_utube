@@ -1,0 +1,69 @@
+Having different types of data types
+nums = [ 1, 2, 3, 4, 12, 90]
+
+Strings - collection of characters
+nums[0]
+nums[-1]
+nums[0:4]
+4 is exclusive
+
+
+names = ["naveen", "santosh", "john"]
+
+
+values = [9.7, "nishanth", 23]
+- with different type of data
+
+mil = [nums , names] - this list is inside another list
+
+
+CERTAIN METHODS OR OPERATIONS
+nums.append()
+LISTS ARE MUTABLE - MUTABLE MEANS WE CAN CHANGE THE VALUES
+
+
+
+Ctrl +SPace == popup
+
+
+
+
+append = append at the end
+in insert == it inserts in between and we can put it
+nums.insert(2 , 77)
+nums.remove ("any element in the list")
+
+
+nums.pop(1) -- we are using the index
+
+
+nums.pop() - without specifiying the index value the last element which is added is removed
+use of STACK in data structures
+
+
+to remove multiple values
+
+del nums[2:] - this deletes all the elements from 2
+
+
+
+To add multiple values 
+we can  use extend 
+
+
+TO LEARN OR READ OF THE PYTHON WE CAN GO FOR PYTHON DOCS
+
+nums.extend([23, 45, 65])  - 
+here we are adding or inserting many elements
+
+
+
+IN-BUILT FUNCTIONS 
+
+min(nums)
+max(nums)
+sum(nums)
+
+nums.sort() - used for sorting
+
+LIST IS MUTABLE SO WE CAN CHANGE VALUES EXTEND SORT AND MANY OTHER THINGS

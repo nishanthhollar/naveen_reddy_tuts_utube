@@ -1,0 +1,17 @@
+Arithmetic Operators
+Assignment Operators 
+Relational Operators
+Logical Operators
+Unary Operators
+
+
+We can assign the values in one line
+a, b = 5,6
+
+
+RELATIONAL OPERATORS
+
+
+
+LOGICAL OPERATORS
+and or not

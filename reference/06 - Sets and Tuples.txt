@@ -1,0 +1,44 @@
+list can be of different types
+
+
+Tuple almost same as list
+in list we can change values in tuple we cannot change values
+
+
+tup = (21, 36, 41, 45)
+tu[1]
+we can fetch values
+
+
+we cannot change values
+
+tuple has two methods ie count and  imdex
+count - - counts the occurence of the numbers
+
+
+when we are using tuples - we should not change the values
+
+iterations in tuple are faster than lists
+
+
+
+SET
+
+SET - collection of unique elements
+
+s = { 22, 25, 15, 21, 5}
+
+Set - never follows a sequence
+Set uses the concept of HASH 
+hence it improves the performance of the program
+
+In set InDEXING IS NOT SUPPORTED
+WE CANT FETCH THE ELEMENTS IN SET
+
+MAny Built in functions in set
+
+LIst - collection of values, add, remove , update values
+
+TUPLES - collection is immutable as we cannot change values
+
+SETS - does not support duplicate values and also does not suppport sequence

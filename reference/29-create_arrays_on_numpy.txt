@@ -1,0 +1,61 @@
+ 6 ways of creating arrays on numpy
+
+
+1. array()
+2. linespace()
+3. logspace()
+4. arange()
+5. zeros()
+6. ones()
+
+
+1> array()
+arr = array([1, 2, 3, 4, 5])  --- we need not specify the type of element
+
+
+print(arr.dtype)  --- specifies the type of array
+
+
+2. linspace()
+linspace(start, stop, part)
+here the stop , the last number is  included
+here step divides the path
+
+
+if i dont specify the last element then by default it creates 50 parts
+
+
+
+
+3. arange()
+	
+arr = arange(1, 15, 2)
+arr = arange(first, last, step)
+
+
+
+4. logspace()
+
+
+arr = logspace()
+in linespace - gap btw two elements is fixed 
+in logspace - gap btw the two elements is not fixed
+
+
+arr = logspace(1, 40, 5)
+
+print('%.2f' %arr[4])
+print(arr)
+
+%.2f means round of two only two decimal numbers of float
+
+
+
+5. zeros()  -- if all values by default should be 0
+
+arr = zeros(5)
+arr = ones(5)
+
+6. ones() ---- if all the values by default should be 1
+arr = ones(5,int)
+

@@ -1,0 +1,64 @@
+Operator Overloading
+
+polymorphism - one thing which has many forms
+
+adding two integers 
+5+6 
+
+adding an integer and a flaot
+
+adding two strings
+
+a = 5
+b = 'world'
+
+print(a+b)
+
+all these are pre defined and this is known as synthetic sugar
+
+int here  is a class which has certain methods
+
+int.__add__(a,b)
+
+print(int.__add__(a,b))
+
+Does the same function 
+
+ctrl + click on method or class 
+
+print(str.__add__(a,b))
+
+
+When we use  + it calls add method
+When we use  -it calls sub method
+__add__()
+__sub__()
+__mul__()
+
+THese are known as magic methods
+
+
+class Student:
+	def __init__(self, m1, m2):
+		self.m1 = m1
+		self.m2 = m2
+
+s1 = Student(5, 10)
+s2 = Student(50, 60)
+
+
+s3 = s1 + s2
+
+
+You can overload the operator
+
+def __add__(self, other):
+
+
+print(a.__str__())
+these are all buillt in functions and these functions are calling
+
+
+Whenever we perform any operations, behind  the scenes we are calling methods
+
+

@@ -1,0 +1,58 @@
+Dictionaries  are keys and values in lists
+
+
+Every value has a special key given by values
+Key and Value
+
+data = { key: 'value' , key2: 'value2' }
+
+
+data = { 1 : ' Nishanth' , 2: ' Kiran' }
+data[1]
+specify the key to fetch the values
+
+
+Built- in functions 
+get , pop, clear,
+
+data.get(1) - specifying index we get the values
+
+None - if no data or value it prints None
+
+
+data.get(1, 'Not found')
+if there is no data we get NOt FOund 
+
+we use index in the get method to fetch the values
+
+
+
+
+keys = [ 'Nishanth', 'Varu', 'Harsh']
+values = ['Python', 'Java', 'JS']
+
+data = zip(keys, values)
+
+data = dict(zip(keys,values))
+
+this is used to convert two lists map them and then use as dictionary 
+
+data['Kiran']
+
+data['Monica'] = 'Cs'
+
+here Monica is added at the end of  the dictionary 
+
+
+data['Key'] = 'value'
+
+
+del data['key']
+del data['Harsh'] - now harsh is deleted
+
+
+we can have list in dictionary and dictionary in list
+prog = {'JS' : 'Atom', "CS":"VS", "python" : ["pycharm", "Atom", "Sublime"], 'Java' : { 'JSE': 'Netbeans', 'JEE': 'Eclipse'}}
+prog["Java"] [ 'JEE']
+
+  

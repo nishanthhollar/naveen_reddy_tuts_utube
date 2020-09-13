@@ -1,0 +1,87 @@
+Anonymous Function 
+they are called lambda
+
+def square(a):
+	return a*a
+
+result = square(5)
+
+lambda is the anonymous function
+Functions are objects in Python
+
+
+f = lambda a : a*a
+
+result = f(5)
+print(result)
+
+
+without name it can have multiple function 
+
+
+FILTER MAP REDUCE
+
+filter()
+map()
+reduce()
+
+
+filter takes two arguments ie functions and iterable 
+list = filter(function, iterable)
+
+if we want a list
+
+a = list(filter(function, iterable))
+
+
+
+
+
+
+
+
+BIG DATA Beginning
+
+map is used to change value
+
+Take the chunk of data
+we filter the data and map it and reduce it
+
+Map - takes value and apply an operation and then we reduce the values
+
+
+def update(n):
+	
+doubles = list(map(lambda n:  n+2,evens))
+
+print(doubles)
+
+
+We use functions so that it is reusable..
+
+
+nums = [10, 20, 32, 34, 33, 41]
+evens = list(filter(lambda n: n%2 == 0, nums))
+print(evens)
+
+
+MAP
+Map is used to change the values of the list 
+
+Map is used to change every value
+
+doubles = list(map(function, iterable))
+doubles = list(map(lambda a: a*a, list))
+
+#REDUCE 
+
+from functools import reduce
+is the module from where we can use reduce method
+Example - to get one value from the list of all values
+that is how we reduce the  list
+
+
+sum = reduce(function, sequence)
+
+sum = reduce(lambda a,b : a+b,  doubles)
+ 

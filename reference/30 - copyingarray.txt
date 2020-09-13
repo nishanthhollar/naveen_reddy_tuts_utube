@@ -1,0 +1,91 @@
+
+
+
+Adding an  element to all the elements in the array
+from numpy import *
+
+arr = array([1, 2, 3, 4, 5])
+arr = arr + 5
+print(arr)
+
+
+
+
+Adding two arrays
+
+arr1 = array([1, 2, 3, 4, 5])
+arr2 = array([6, 7, 8, 9, 10])
+
+arr3 = arr1 + arr2
+print(arr3)
+
+
+THis is called Vectorized Operation 
+
+
+Numpy stands for num - numerical
+can do trignometric and mathematical operations
+
+print(sin(arr1))
+print(log(arr))
+
+print(sqrt(arr))
+print(sum(arr1))
+print(min(arr1))
+print(max(arr1))
+print(sorted(arr1))
+
+To concatentate the two arrays
+
+
+HOW TO COPY AN ARRAY
+
+
+opying the array 
+
+arr2 = arr1 
+print(arr1)
+print(arr2)
+print(id(arr1))
+print(id(arr2))
+they both will have same value and same address
+This is known as ALIASING as we are creating new alias for the same objects
+print(concatenate([arr1, arr2])
+
+
+
+
+.view() --> function that creates a new array  with a different location
+
+arr1.view()
+we have two different variables with two different address location
+
+
+we have TWO DIFFERENT TYPES of copying 
+1. Shallow Copy
+2. Deep Copy
+ 
+
+
+ShALOW COPY
+
+When the value is modified in one array and 
+the values are changing for 
+both the arrays which we don't want 
+then it is known as shallow copying
+
+
+
+DEEP COPY
+
+two arrays that are not linked with each other in any way
+
+arr1.copy() -- this is the function which gives the deep copy 
+arr2 = arr1.copy() ---> the changes in the copy is reflected to the first array
+
+
+
+
+
+
+

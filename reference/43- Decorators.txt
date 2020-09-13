@@ -1,0 +1,29 @@
+Using Decorators we can add existing features 
+without touching the main function
+
+
+Everything in python is object so we can assign a function to another function'
+
+
+Change the behaviour of the existing function 
+What we use in Decoratorss
+
+We are creating a new function which takes function as parameter 
+and we can define the function which is actually replacing the code
+
+#MY copied function
+def sub(a,b):
+    print(a-b)
+
+
+def smart_sub(func):
+
+    def inner(a, b):
+        if a<b:
+            a, b = b, a
+        return func(a, b)
+    return inner
+
+#newnamevariable = programmerdefinedfunc(existing function)
+sub = smart_sub(sub)
+sub(1, 4)

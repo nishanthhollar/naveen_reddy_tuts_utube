@@ -1,0 +1,39 @@
+Syntax basic 
+fastest growing
+machine learning 
+gui 
+software development
+Web Development
+
+Python is called General Purpose Language
+
+python is an 
+INTERPRETED 
+OBJECT ORIENTED
+ HIGH -LEVEL
+
+Python came in 1990
+Guido Van Rossum
+
+
+Easiest language available is Python
+
+
+Google 
+youtube 
+dropbox
+reddit 
+all these languages written in python
+the author of python is a huge fan of Bristish Comedy Movie called as 
+Monty Python's flying circus
+hence the name python
+python 1.x - 1994 jan
+python 2.x - 2000 october
+python 3.x - 2008 December
+
+
+Interpreter and  IDE
+
+
+Pycharm
+

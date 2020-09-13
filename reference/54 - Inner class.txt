@@ -1,0 +1,16 @@
+A class inside a  class is known as inner class
+
+
+you can create the object of inner class inside the outer class
+
+OR
+
+You can create the object of inner class outside the outer class 
+provided you use outer class name to call it
+
+
+Object of laptop will be in the outer class
+
+self.lap = self.Laptop()
+
+

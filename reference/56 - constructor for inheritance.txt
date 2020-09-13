@@ -1,0 +1,25 @@
+ Constructor in Inheritance
+Method Resolution Order (MRO)
+Super class cannot access features of sub class
+
+
+
+IF we create object of sub class it will first
+try to find the init of sub class 
+if it is not found  then it will call init of Super class
+
+
+
+If we want  to call the init of both the classes then we use the keyword
+super
+
+We can work constructor with inheritance
+
+
+
+the super class prefers or goes from left to right
+this going from left to right is known as Method Resolution Order
+
+
+We can use super method to use other classes
+TO represent super class we use super method

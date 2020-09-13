@@ -1,0 +1,14 @@
+Debugging is removing bugs
+
+Coding means adding bugs
+
+Instead of writing one big software in one big file 
+We break it down to small small parts
+
+If we have ABCD features for a software we need to break it in logical parts
+
+AC and BD one one module
+A C B D 
+
+WE can reuse the module
+

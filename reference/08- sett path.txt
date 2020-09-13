@@ -1,0 +1,18 @@
+help()
+this is the help prompt
+
+TOPICS
+
+these are the list of modules
+you get every  information about it
+
+
+LIST  
+
+
+
+pycharm is heavy software 
+sublime is a light software
+
+
+

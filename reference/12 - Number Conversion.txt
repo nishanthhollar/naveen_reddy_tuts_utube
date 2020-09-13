@@ -1,0 +1,47 @@
+Binary Format
+bin(25) - we can convert the number 
+from decimal system to binary system
+BIT - Binary Digits
+octal - base 8 
+hexaDecimal - base 16 
+
+
+Functions 
+bin(25)
+
+
+Decimal system to binary format
+
+step 1)
+ divide the number by 2
+
+step 2) 
+from bottom to top we need to read the numbers
+
+
+0b11001 - Ob means it means that it is binary
+
+
+obo1o1 - before the number if we put 0b then it is in  binary format
+
+
+oct(25)
+0o31 - 0o -- start of octal
+
+hex(25)
+0x19 
+hex(10)
+oxa
+
+oxf
+
+
+Binary to Decimal
+
+step1)
+assign powers of 2
+
+
+step2} later add all the values
+
+

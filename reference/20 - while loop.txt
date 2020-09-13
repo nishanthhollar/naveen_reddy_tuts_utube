@@ -1,0 +1,46 @@
+repeating statements again and again 
+
+
+we can apply loop 
+while loop 
+for loop 
+
+
+
+i = 1
+
+while (condition)
+	print("Telusko")
+
+
+i = 1
+
+while (i<=5):
+	print("Telusko")
+	i = i+1
+
+using F8 for the  debugger
+
+use Debug option in the file
+
+Initialization 
+Condition
+Decrement or Increment
+
+
+First the program will complete the inner loop and then it jumps to the outer loop
+
+for example 
+in a week we have days and in days we have hours
+in a day we have 24 hours' which is the inner loop
+so first we need to finish the inner loop 
+and later we need to finish the outer loop 
+as 24hours in a day of sunday should be completed so that it can proceed to mondau
+
+
+
+print("Telusko",end="")
+to print the things on the same line
+
+
+

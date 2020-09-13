@@ -1,0 +1,89 @@
+DATA TYPES
+
+ We need to understand what kind of data are we working with if we don't understand then 
+we will face some errors
+BUGS are horrifying
+
+None
+Numeric
+List
+Tuple
+Set
+String
+Range
+Map or Dictionary
+
+
+None - variable which does not have any value assigned to it
+in other languages we use keyword as null
+
+
+Numeric - 
+	int	5
+	float	5.6
+	complex	a+bi
+	bool	True or False
+
+
+Type Conversion 
+a = 5.6
+b = int(a)
+k = float(b)
+k = 6
+c = complex(b,k)
+d = complex(a, k)
+b<k
+
+bool = b<k
+type(bool)
+
+
+WE USE True = 1 
+WE Use False  = 0
+
+
+
+
+
+LIST DATA TYPE
+
+
+lst = [23,56,67]
+type(lst)
+class list
+
+set = {34, 12, 45, 54}
+type(set)
+
+
+str = "Nishanh"
+type(str)
+
+
+t = (23 , 5, 56, 67, 78)
+type(t)
+class = tuple
+
+even character is string in python 
+
+
+iteration - going from one value to another value
+
+range(0, 10) - exclusive of 10
+
+list(range(10))
+list(range(2,10,2))
+
+
+
+Mapping or Dictionary
+When we have huge amount of data for every value we assign a key 
+
+d = {'nishanth' : 'samsung', 'rahul': 'iphone','kiran':'oneplus6'}
+
+d.keys()- to fetch the keys 
+d.values()- to fetch the values
+d['rahul'0
+d.get('kiran')
+d.get(2)
+
